@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessObjects
 {
-    public class Custom
+    public class CustomBO
     {
         public int CustomMessageNumber { get; set; }
 

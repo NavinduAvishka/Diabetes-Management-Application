@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
             if (ModelState.IsValid)
             {
                 UserBl userBl = new UserBl();
-                Custom custom = userBl.AddUser(userBO);
+                CustomBO custom = userBl.AddUser(userBO);
                 return RedirectToAction("Index");
             }
 

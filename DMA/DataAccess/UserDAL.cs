@@ -17,9 +17,9 @@ namespace DataAccess
             Db = new DMDBEntities();
         }
 
-        public Custom AddUser(UserBO userBO)
+        public CustomBO AddUser(UserBO userBO)
         {
-            Custom custom = new Custom();
+            CustomBO custom = new CustomBO();
             User user = new User() {
                 UserID = userBO.UserID,
                 UserName = userBO.UserName,

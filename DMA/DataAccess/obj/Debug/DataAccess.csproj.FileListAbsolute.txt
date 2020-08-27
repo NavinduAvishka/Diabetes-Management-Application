@@ -11,3 +11,16 @@ C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAc
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.dll
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.pdb
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.dll
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.pdb
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\BusinessObjects.dll
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.dll
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\BusinessObjects.pdb
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.xml
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.dll
+D:\Intern-projects\GitRepos\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.pdb

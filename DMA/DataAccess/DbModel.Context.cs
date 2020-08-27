@@ -16,7 +16,7 @@ namespace DataAccess
     public partial class DMDBEntities : DbContext
     {
         public DMDBEntities()
-            : base("name=DMDBEntities")
+            : base("name=DiabetesManagementSystemEntities")
         {
         }
     

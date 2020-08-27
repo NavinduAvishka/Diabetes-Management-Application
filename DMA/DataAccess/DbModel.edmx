@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="DMDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="DiabetesManagementSystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="CalorieLevel">
           <Key>
             <PropertyRef Name="CalorieLevelID" />
@@ -103,7 +103,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="DMDBModelStoreContainer">
+        <EntityContainer Name="DiabetesManagementSystemModelStoreContainer">
           <EntitySet Name="CalorieLevel" EntityType="Self.CalorieLevel" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Meal" EntityType="Self.Meal" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MealGlucoseLevel" EntityType="Self.MealGlucoseLevel" Schema="dbo" store:Type="Tables" />
@@ -128,7 +128,7 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="DMDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="DiabetesManagementSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="CalorieLevel">
           <Key>
             <PropertyRef Name="CalorieLevelID" />
@@ -233,7 +233,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="DMDBEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="DiabetesManagementSystemEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CalorieLevels" EntityType="Self.CalorieLevel" />
           <EntitySet Name="Meals" EntityType="Self.Meal" />
           <EntitySet Name="MealGlucoseLevels" EntityType="Self.MealGlucoseLevel" />
@@ -259,9 +259,9 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="DMDBModelStoreContainer" CdmEntityContainer="DMDBEntities">
+        <EntityContainerMapping StorageEntityContainer="DiabetesManagementSystemModelStoreContainer" CdmEntityContainer="DiabetesManagementSystemEntities">
           <EntitySetMapping Name="CalorieLevels">
-            <EntityTypeMapping TypeName="DMDBModel.CalorieLevel">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.CalorieLevel">
               <MappingFragment StoreEntitySet="CalorieLevel">
                 <ScalarProperty Name="CalorieLevelID" ColumnName="CalorieLevelID" />
                 <ScalarProperty Name="CalorieAmount" ColumnName="CalorieAmount" />
@@ -272,7 +272,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Meals">
-            <EntityTypeMapping TypeName="DMDBModel.Meal">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.Meal">
               <MappingFragment StoreEntitySet="Meal">
                 <ScalarProperty Name="MealId" ColumnName="MealId" />
                 <ScalarProperty Name="FoodName" ColumnName="FoodName" />
@@ -282,7 +282,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="MealGlucoseLevels">
-            <EntityTypeMapping TypeName="DMDBModel.MealGlucoseLevel">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.MealGlucoseLevel">
               <MappingFragment StoreEntitySet="MealGlucoseLevel">
                 <ScalarProperty Name="GlucoseLevelID" ColumnName="GlucoseLevelID" />
                 <ScalarProperty Name="GlucoseLevel" ColumnName="GlucoseLevel" />
@@ -293,7 +293,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="MonthlyInputs">
-            <EntityTypeMapping TypeName="DMDBModel.MonthlyInput">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.MonthlyInput">
               <MappingFragment StoreEntitySet="MonthlyInput">
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
                 <ScalarProperty Name="GlucoseLevel" ColumnName="GlucoseLevel" />
@@ -301,7 +301,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Reports">
-            <EntityTypeMapping TypeName="DMDBModel.Report">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.Report">
               <MappingFragment StoreEntitySet="Report">
                 <ScalarProperty Name="ReportID" ColumnName="ReportID" />
                 <ScalarProperty Name="ReportDescription" ColumnName="ReportDescription" />
@@ -310,7 +310,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="SuggestMeals">
-            <EntityTypeMapping TypeName="DMDBModel.SuggestMeal">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.SuggestMeal">
               <MappingFragment StoreEntitySet="SuggestMeal">
                 <ScalarProperty Name="SuggestionID" ColumnName="SuggestionID" />
                 <ScalarProperty Name="Mealtype" ColumnName="Mealtype" />
@@ -319,7 +319,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Users">
-            <EntityTypeMapping TypeName="DMDBModel.User">
+            <EntityTypeMapping TypeName="DiabetesManagementSystemModel.User">
               <MappingFragment StoreEntitySet="User">
                 <ScalarProperty Name="UserID" ColumnName="UserID" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
