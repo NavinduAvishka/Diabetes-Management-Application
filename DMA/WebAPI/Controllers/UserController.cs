@@ -13,6 +13,7 @@ namespace WebAPI.Controllers
         // GET: User
         public ActionResult Index()
         {
+
             return View();
         }
 
@@ -29,5 +30,8 @@ namespace WebAPI.Controllers
             return View(userBO);
 
         }
+
+        
+
     }
 }

@@ -14,3 +14,19 @@ C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\Busine
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessObjects.pdb
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\DataAccess.pdb
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\DataAccess.dll.config
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\BusinessObjects.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\DataAccess.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\BusinessObjects.pdb
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\DataAccess.dll.config
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\BusinessLogic\obj\Debug\BusinessLogic.pdb
