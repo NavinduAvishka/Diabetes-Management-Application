@@ -1,0 +1,13 @@
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.pdb

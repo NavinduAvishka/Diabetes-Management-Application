@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DMDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CalorieLevel">
+    <Key>
+      <PropertyRef Name="CalorieLevelID" />
+    </Key>
+    <Property Name="CalorieLevelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CalorieAmount" Type="Double" Nullable="false" />
+    <Property Name="CalorieLevelLimit" Type="Double" Nullable="false" />
+    <Property Name="ComparedCalorieLevel" Type="Double" Nullable="false" />
+    <Property Name="MealId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Meal" Relationship="Self.fk_Meal_CalorieLevel" FromRole="CalorieLevel" ToRole="Meal" />
+  </EntityType>
+  <EntityType Name="Meal">
+    <Key>
+      <PropertyRef Name="MealId" />
+    </Key>
+    <Property Name="MealId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FoodName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FoodType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FoodAmount" Type="Double" Nullable="false" />
+    <NavigationProperty Name="CalorieLevels" Relationship="Self.fk_Meal_CalorieLevel" FromRole="Meal" ToRole="CalorieLevel" />
+    <NavigationProperty Name="MealGlucoseLevels" Relationship="Self.fk_Meal_GlucoseLevel" FromRole="Meal" ToRole="MealGlucoseLevel" />
+  </EntityType>
+  <EntityType Name="MealGlucoseLevel">
+    <Key>
+      <PropertyRef Name="GlucoseLevelID" />
+    </Key>
+    <Property Name="GlucoseLevelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GlucoseLevel" Type="Double" Nullable="false" />
+    <Property Name="GlucoseLevelLimit" Type="Double" Nullable="false" />
+    <Property Name="ComparedGlucoseLevel" Type="Double" Nullable="false" />
+    <Property Name="MealId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Meal" Relationship="Self.fk_Meal_GlucoseLevel" FromRole="MealGlucoseLevel" ToRole="Meal" />
+  </EntityType>
+  <EntityType Name="MonthlyInput">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="GlucoseLevel" Type="Double" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.fk_UserID" FromRole="MonthlyInput" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="ReportID" />
+    </Key>
+    <Property Name="ReportID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReportDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MonthlyStatus" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SuggestMeal">
+    <Key>
+      <PropertyRef Name="SuggestionID" />
+    </Key>
+    <Property Name="SuggestionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mealtype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MealAmount" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserAge" Type="Int32" />
+    <Property Name="UserWeight" Type="Double" Nullable="false" />
+    <Property Name="UserCurrentGlucoseLevel" Type="Double" Nullable="false" />
+    <NavigationProperty Name="MonthlyInput" Relationship="Self.fk_UserID" FromRole="User" ToRole="MonthlyInput" />
+  </EntityType>
+  <Association Name="fk_Meal_CalorieLevel">
+    <End Role="Meal" Type="Self.Meal" Multiplicity="1" />
+    <End Role="CalorieLevel" Type="Self.CalorieLevel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meal">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="CalorieLevel">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Meal_GlucoseLevel">
+    <End Role="Meal" Type="Self.Meal" Multiplicity="1" />
+    <End Role="MealGlucoseLevel" Type="Self.MealGlucoseLevel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meal">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealGlucoseLevel">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_UserID">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="MonthlyInput" Type="Self.MonthlyInput" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="MonthlyInput">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DMDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CalorieLevels" EntityType="Self.CalorieLevel" />
+    <EntitySet Name="Meals" EntityType="Self.Meal" />
+    <EntitySet Name="MealGlucoseLevels" EntityType="Self.MealGlucoseLevel" />
+    <EntitySet Name="MonthlyInputs" EntityType="Self.MonthlyInput" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="SuggestMeals" EntityType="Self.SuggestMeal" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="fk_Meal_CalorieLevel" Association="Self.fk_Meal_CalorieLevel">
+      <End Role="Meal" EntitySet="Meals" />
+      <End Role="CalorieLevel" EntitySet="CalorieLevels" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Meal_GlucoseLevel" Association="Self.fk_Meal_GlucoseLevel">
+      <End Role="Meal" EntitySet="Meals" />
+      <End Role="MealGlucoseLevel" EntitySet="MealGlucoseLevels" />
+    </AssociationSet>
+    <AssociationSet Name="fk_UserID" Association="Self.fk_UserID">
+      <End Role="User" EntitySet="Users" />
+      <End Role="MonthlyInput" EntitySet="MonthlyInputs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

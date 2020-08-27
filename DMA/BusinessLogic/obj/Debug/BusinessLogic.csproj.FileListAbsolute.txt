@@ -1,0 +1,16 @@
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessObjects.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\BusinessObjects.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessLogic\bin\Debug\DataAccess.dll.config

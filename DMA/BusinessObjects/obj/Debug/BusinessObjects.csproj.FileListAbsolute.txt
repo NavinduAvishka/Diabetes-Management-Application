@@ -1,0 +1,6 @@
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\BusinessObjects\obj\Debug\BusinessObjects.pdb
