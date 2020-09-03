@@ -11,7 +11,6 @@ C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAc
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.dll
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\DataAccess\bin\Debug\BusinessObjects.pdb
-D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.xml
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.dll.config
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.dll
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\DataAccess.pdb
@@ -19,6 +18,7 @@ D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.dll
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\BusinessObjects.pdb
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.xml
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache

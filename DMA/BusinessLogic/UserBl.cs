@@ -10,12 +10,13 @@ namespace BusinessLogic
 {
     public class UserBl
     {
-        public Custom AddUser(UserBO userBO)
+        public void AddUser(UserBO userBO)
         {
-            return new UserDAL().AddUser(userBO);
+            new UserDAL().AddUser(userBO);
 
         }
 
-       
+      
+
     }
 }

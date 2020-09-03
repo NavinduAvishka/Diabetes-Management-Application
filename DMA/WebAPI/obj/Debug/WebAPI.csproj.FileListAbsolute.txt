@@ -58,6 +58,8 @@ C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\WebAPI
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\WebAPI\bin\EntityFramework.xml
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\WebAPI\bin\EntityFramework.SqlServer.dll
 C:\Users\navindu.avishka.SLIEC\source\repos\DiabetesManagementApplication\WebAPI\bin\EntityFramework.SqlServer.xml
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\ApplicationInsights.config
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\WebAPI.dll.config
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\WebAPI.dll
@@ -114,7 +116,5 @@ D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\Microsoft.AI.Web.xml
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\DataAccess.pdb
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\bin\DataAccess.dll.config
-D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
-D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.dll
 D:\Projects\Diabetes management application\DMA\Diabetes-Management-Application\DMA\WebAPI\obj\Debug\WebAPI.pdb

@@ -15,7 +15,7 @@ namespace BusinessObjects
         [Display(Name = "User Name")]
         [Required(ErrorMessage ="User name is Required")]
         public string UserName { get; set; }
-
+                
         [Display(Name = "Age")]
         [Required(ErrorMessage = "Age is Required")]
         public int? UserAge { get; set; }

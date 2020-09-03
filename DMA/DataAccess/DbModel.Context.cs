@@ -31,6 +31,6 @@ namespace DataAccess
         public virtual DbSet<MonthlyInput> MonthlyInputs { get; set; }
         public virtual DbSet<Report> Reports { get; set; }
         public virtual DbSet<SuggestMeal> SuggestMeals { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }

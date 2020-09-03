@@ -1,36 +1,35 @@
-﻿using System;
+﻿using BusinessObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessLogic;
-using BusinessObjects;
-
-
 namespace WebAPI.Controllers
 {
-    public class UserController : Controller
+    public class MealController : Controller
     {
-        // GET: User
+        // GET: Meal
         public ActionResult Index()
         {
-
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(UserBO userBO)
+        public ActionResult Index(MealBO mealBO)
         {
             if (ModelState.IsValid)
             {
-                UserBl userBl = new UserBl();
-                userBl.AddUser(userBO);
+                MealBl mealBl = new MealBl();
+                mealBl.AddMeal(mealBO);
                 return RedirectToAction("Index");
+
             }
 
-            return View(userBO);
+            return View(mealBO);
 
         }
+
 
     }
 }
