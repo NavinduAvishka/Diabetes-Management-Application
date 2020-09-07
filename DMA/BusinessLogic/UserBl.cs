@@ -10,10 +10,18 @@ namespace BusinessLogic
 {
     public class UserBl
     {
+        private DAL userData = new DAL();
+
         public void AddUser(UserBO userBO)
         {
-            new UserDAL().AddUser(userBO);
+            new DAL().AddUser(userBO);
 
+        }
+
+        // Getting List<UserBO> type
+        public List<UserBO> UserDetails()
+        {
+            return userData.GetUserDetails(); 
         }
 
       

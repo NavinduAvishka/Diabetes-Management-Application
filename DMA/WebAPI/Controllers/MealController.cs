@@ -10,24 +10,30 @@ namespace WebAPI.Controllers
     public class MealController : Controller
     {
         // GET: Meal
-        public ActionResult Index()
+        public ActionResult AddMeal()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(MealBO mealBO)
+        public ActionResult AddMeal(MealBO mealBO)
         {
             if (ModelState.IsValid)
             {
                 MealBl mealBl = new MealBl();
                 mealBl.AddMeal(mealBO);
-                return RedirectToAction("Index");
+                return RedirectToAction("AddMeal");
 
             }
-
             return View(mealBO);
+        }
 
+        // Meal list view
+        [HttpGet]
+        public ActionResult MealDetails()
+        {
+            MealBl mealBl = new MealBl();
+            return View(mealBl.MealDetails());
         }
 
 

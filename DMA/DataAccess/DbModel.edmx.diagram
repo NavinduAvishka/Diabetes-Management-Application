@@ -4,17 +4,17 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f4ba6bd8be0f482cbf2803bb897c4df6" Name="Diagram1">
-        <EntityTypeShape EntityType="DMDBModel.CalorieLevel" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.Meal" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.MealGlucoseLevel" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.MonthlyInput" Width="1.5" PointX="8" PointY="1.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.Report" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.SuggestMeal" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DMDBModel.User" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
-        <AssociationConnector Association="DMDBModel.fk_Meal_CalorieLevel" ManuallyRouted="false" />
-        <AssociationConnector Association="DMDBModel.fk_Meal_GlucoseLevel" ManuallyRouted="false" />
-        <AssociationConnector Association="DMDBModel.fk_UserID" ManuallyRouted="false" />
+      <Diagram DiagramId="1cb78000ff054a718fd475d1205150e5" Name="Diagram1">
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.CalorieLevel" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.Meal" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.MealGlucoseLevel" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.MonthlyInput" Width="1.5" PointX="8" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.Report" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.SuggestMeal" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiabetesManagementSystemModel.User" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="DiabetesManagementSystemModel.fk_Meal_CalorieLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="DiabetesManagementSystemModel.fk_Meal_GlucoseLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="DiabetesManagementSystemModel.fk_UserID" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

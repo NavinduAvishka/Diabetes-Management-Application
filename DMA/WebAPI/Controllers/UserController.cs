@@ -12,24 +12,32 @@ namespace WebAPI.Controllers
     public class UserController : Controller
     {
         // GET: User
-        public ActionResult Index()
+        public ActionResult AddUser()
         {
 
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(UserBO userBO)
+        public ActionResult AddUser(UserBO userBO)
         {
             if (ModelState.IsValid)
             {
                 UserBl userBl = new UserBl();
                 userBl.AddUser(userBO);
-                return RedirectToAction("Index");
+                return RedirectToAction("AddUser");
             }
 
             return View(userBO);
 
+        }
+
+        // User's list view
+        [HttpGet]
+        public ActionResult UserDetails()
+        {
+            UserBl userBl = new UserBl();
+            return View(userBl.UserDetails());
         }
 
     }

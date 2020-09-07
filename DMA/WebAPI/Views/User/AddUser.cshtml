@@ -1,10 +1,10 @@
 ﻿@model BusinessObjects.UserBO
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "AddUser";
 }
 
-<h2>User Register</h2>
+<h2>Register</h2>
 
 
 @using (Html.BeginForm()) 
@@ -12,8 +12,10 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
+        
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        
 
         <div class="form-group">
             @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -56,7 +58,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("View List", "UserDetails")
 </div>
 
 @section Scripts {
